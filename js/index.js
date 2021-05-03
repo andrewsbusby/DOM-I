@@ -66,3 +66,16 @@ nav[3].textContent = 'Features';
 nav[4].textContent = 'About';
 nav[5].textContent = 'Contact';
 
+// const navColor = document.querySelector('a');
+// navColor.style.color = 'green'
+
+// H1
+
+const h1 = document.querySelector('h1');
+h1.textContent ='DOM Is Awesome';
+
+
+// BUTTON
+
+const button = document.querySelector('button');
+button.textContent = 'Get Started';
