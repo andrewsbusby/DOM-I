@@ -110,10 +110,12 @@ Ah1.style.color = '#0073d9';
 document.querySelector('h1').append(Ah1);
 
 
+
 // BUTTON
 
 const button = document.querySelector('button');
 button.textContent = 'Get Started';
+button.addEventListener('click', (event) => {event.target.style.backgroundColor = 'blue';});
 
 // H4
 
@@ -124,6 +126,13 @@ h4[2].textContent = 'Services';
 h4[3].textContent = 'Product';
 h4[4].textContent = 'Vision';
 h4[5].textContent = 'Contact';
+
+const h4Event = document.querySelector('.text-content h4');
+h4Event.classList.add('event');
+document.querySelector('.event').style.color = 'red';
+h4Event.addEventListener('click', (event) => {event.target.style.fontSize ='3rem'; });
+const revert = document.querySelector('.text-content h4');
+
 
 // P
 
