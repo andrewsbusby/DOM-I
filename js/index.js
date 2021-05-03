@@ -66,6 +66,9 @@ nav[3].textContent = 'Features';
 nav[4].textContent = 'About';
 nav[5].textContent = 'Contact';
 
+
+// Append & Prepend
+
 const blogLink = document.createElement('a');
 blogLink.textContent = 'Blog';
 blogLink.href = '#';
@@ -75,6 +78,8 @@ const me = document.createElement('a');
 me.textContent = 'Andrew';
 me.href ='#';
 document.querySelector('nav').prepend(me);
+
+// NAV STYLE
 
 const navColor = document.querySelector('a');
 navColor.style.color = 'green'
