@@ -146,3 +146,14 @@ para[5].textContent = '123 Way 456 Street Somewhere, USA';
 para[6].textContent = '1 (888) 888-8888';
 para[7].textContent = 'sales@greatidea.io';
 para[8].textContent = 'Copyright Great Idea! 2018';
+
+// STRETCH BUTTON
+
+const test = document.createElement('button');
+test.classList.add('try');
+document.querySelector('footer').prepend(test);
+test.textContent = 'Try it out!';
+test.style.padding = '2%';
+test.style.margin = '1%';
+test.addEventListener('click', (event) => {event.target.textContent = 'Nice Try'; });
+test.addEventListener('mouseover', (event) => {event.target.style.fontSize = '2rem'; });
