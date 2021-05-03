@@ -80,14 +80,25 @@ me.href ='#';
 document.querySelector('nav').prepend(me);
 
 // NAV STYLE
+const navColor = document.querySelector('nav');
+navColor.style.backgroundColor = 'green';
 
-const navColor = document.querySelector('a');
-navColor.style.color = 'green'
 
 // H1
 
 const h1 = document.querySelector('h1');
-h1.textContent ='DOM Is Awesome';
+h1.textContent ='DOM';
+h1.style.color = '#0073D9';
+
+const newH1 = document.createElement('h1');
+newH1.textContent = 'Is';
+newH1.style.color = '#0073d9';
+document.querySelector('h1').append(newH1);
+
+const Ah1 = document.createElement('h1');
+Ah1.textContent = 'Awsome';
+Ah1.style.color = '#0073d9';
+document.querySelector('h1').append(Ah1);
 
 
 // BUTTON
