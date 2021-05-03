@@ -66,8 +66,18 @@ nav[3].textContent = 'Features';
 nav[4].textContent = 'About';
 nav[5].textContent = 'Contact';
 
-// const navColor = document.querySelector('a');
-// navColor.style.color = 'green'
+const blogLink = document.createElement('a');
+blogLink.textContent = 'Blog';
+blogLink.href = '#';
+document.querySelector('nav').append(blogLink);
+
+const me = document.createElement('a');
+me.textContent = 'Andrew';
+me.href ='#';
+document.querySelector('nav').prepend(me);
+
+const navColor = document.querySelector('a');
+navColor.style.color = 'green'
 
 // H1
 
@@ -79,3 +89,26 @@ h1.textContent ='DOM Is Awesome';
 
 const button = document.querySelector('button');
 button.textContent = 'Get Started';
+
+// H4
+
+const h4 = document.querySelectorAll('h4');
+h4[0].textContent = 'Features';
+h4[1].textContent = 'About';
+h4[2].textContent = 'Services';
+h4[3].textContent = 'Product';
+h4[4].textContent = 'Vision';
+h4[5].textContent = 'Contact';
+
+// P
+
+const para = document.querySelectorAll('p');
+para[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[5].textContent = '123 Way 456 Street Somewhere, USA';
+para[6].textContent = '1 (888) 888-8888';
+para[7].textContent = 'sales@greatidea.io';
+para[8].textContent = 'Copyright Great Idea! 2018';
