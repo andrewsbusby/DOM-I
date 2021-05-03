@@ -81,7 +81,16 @@ document.querySelector('nav').prepend(me);
 
 // NAV STYLE
 const navColor = document.querySelector('nav');
-navColor.style.backgroundColor = 'green';
+navColor.style.backgroundColor = 'black';
+const colorChange = document.querySelectorAll('header nav a');
+colorChange[0].style.color ='green';
+colorChange[1].style.color = 'green';
+colorChange[2].style.color = 'green';
+colorChange[3].style.color = 'green';
+colorChange[4].style.color = 'green';
+colorChange[5].style.color = 'green';
+colorChange[6].style.color = 'green';
+colorChange[7].style.color = 'green';
 
 
 // H1
